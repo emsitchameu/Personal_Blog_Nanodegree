@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>SDS BLOG</h1>
+      </div>
+
+      <div>
+        <ul>
+          <li class="Subscribe">
+            <a href="pages/webforms.html">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <form action="/search" method="GET">
+          <input type="text" name="query" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/blogpost1.html">Front-End Web Development</a></li>
+        <li><a href="pages/blogpost2.html">Digital Marketing</a></li>
+        <li><a href="pages/blogpost3.html">E-Commerce Consultation</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- Sidebar Section -->
+
+      <section id="sidebar">
+        <div class="sidebar-right">
+          <h2>About us</h2>
+          <p>
+            Welcome to SDS, your premier destination for innovative digital
+            solutions tailored to meet the needs of modern businesses. At SDS,
+            we understand the importance of establishing a strong online
+            presence in today's digital age.
+          </p>
+        </div>
+
+        <div class="sidebar-right">
+          <h2>Archives</h2>
+          <ul>
+            <li><a href="">May 2024</a></li>
+            <li><a href="">April 2024</a></li>
+            <li><a href="">March 2024</a></li>
+          </ul>
+        </div>
+
+        <figure class="image-sidebar">
+          <img
+            class="image-sidebar"
+            src="imgs/sidebar1.jpg"
+            alt="SDS Your Business Partner"
+          />
+          <figcaption><em>SDS, Your Favorite Business Partner</em></figcaption>
+        </figure>
+
+        <div class="sidebar-contact">
+          <h2>Contact us</h2>
+          <p>
+            Address: 000 First St NW,<br />
+            Washington DC 20001
+          </p>
+          <p>Phone - 111 - 111 - 1111</p>
+          <p>Email:<a href="">info@example.com </a></p>
+          <ul>
+            <li class="Follow"><a href="facebook.com/example">Facebook</a></li>
+            <li class="Follow"><a href="twitter.com/example">Twitter</a></li>
+            <li class="Follow"><a href="github.com/example">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BlogPosts Section -->
+
+      <section class="blogs">
+        <div class="container-blogs">
+          <!-- Blog Post 1 -->
+          <div class="blog">
+            <div class="blog-header">FRONT-END WEB DEVELOPMENT</div>
+            <div class="blog-title">
+              5 Essential Tips for Creating Stunning Front-End Designs
+            </div>
+
+            <div class="blog-date">May 01, 2024</div>
+            <div>
+              <img
+                class="miniature"
+                src="imgs/blogpost1.jpg"
+                alt="5_Essential_Tips_for_Creating_Stunning_Front-End_Designs"
+              />
+            </div>
+            <div class="blog-text">
+              <div>
+                This blog post will provide valuable insights and practical tips
+                for front-end web developers looking to create visually stunning
+                and <u>user-friendly website</u> designs. Topics covered may
+                include color theory, typography, responsive design principles,
+                accessibility best practices, and the latest trends in web
+                design.
+              </div>
+            </div>
+
+            <a class="blog-continuelink" href="pages/blogpost1.html"
+              >Continue read</a
+            >
+          </div>
+        </div>
+
+        <div class="container-blogs">
+          <!-- Blog Post 2 -->
+          <div class="blog">
+            <div class="blog-header">DIGITAL MARKETING</div>
+            <div class="blog-title">
+              10 Proven Strategies to Boost Your Digital Marketing ROI
+            </div>
+            <div class="blog-date">Avril 01, 2024</div>
+            <div>
+              <img
+                class="miniature"
+                src="imgs/blogpost2.jpg"
+                alt="10_Proven_Strategies_to_Boost_Your_Digital_Marketing_ROI"
+              />
+            </div>
+            <div class="blog-text">
+              <div>
+                In today's digital age, launching an e-commerce store is an
+                exciting and lucrative venture. With the right strategy and
+                execution, you can turn your passion into a
+                <u>profitable online business</u>. In this comprehensive guide,
+                we'll walk you through the step-by-step process of launching
+                your e-commerce store successfully, from planning and
+                preparation to marketing and growth strategies.
+              </div>
+            </div>
+            <a class="blog-continuelink" href="pages/blogpost2.html"
+              >Continue read</a
+            >
+          </div>
+        </div>
+
+        <div class="container-blogs">
+          <!-- Blog Post 3 -->
+          <div class="blog">
+            <div class="blog-header">E-COMMERCE CONSULTATION</div>
+            <div class="blog-title">
+              The Ultimate Guide to Launching Your E-commerce Store Successfully
+            </div>
+            <div class="blog-date">March 01, 2024</div>
+            <div>
+              <img
+                class="miniature"
+                src="imgs/blogpost3.jpg"
+                alt="The_Ultimate_Guide_to_Launching_Your_E-commerce_Store_Successfully"
+              />
+            </div>
+            <div class="blog-text">
+              <div>
+                This comprehensive guide will walk readers through the
+                step-by-step process of launching and
+                <u>optimizing an e-commerce store for success</u>. Topics
+                covered may include choosing the right e-commerce platform,
+                product selection and sourcing, website customization and
+                branding, marketing and promotion strategies, customer service
+                best practices, and tips for driving sales and increasing
+                conversions.
+              </div>
+            </div>
+            <a class="blog-continuelink" href="pages/blogpost3.html"
+              >Continue read</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section-->
+
+    <div class="footer">
+      <ul>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+
+      &copy; 2024 sds.com. All Rights Reserved.
+    </div>
+  </body>
+</html>

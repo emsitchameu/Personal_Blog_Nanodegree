@@ -1,0 +1,193 @@
+/* =====Importing other CSS files====== */
+@import "search.css";
+@import "webforms.css";
+@import "blogpost.css";
+@import "footer.css";
+@import "sidebar.css";
+
+/* =====main.css====== */
+
+body {
+  background-color: #528d57;
+  margin: 10px;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+}
+.header {
+  background-color: #f3dc68;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.Subscribe {
+  list-style-type: none;
+}
+
+.search {
+  display: flex;
+  justify-content: right;
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+button[type="submit"] {
+  padding: 8px 15px;
+  background-color: #007bff; /* Change color as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Change color as needed */
+}
+
+.navbar ul {
+  margin: 10px;
+  font-family: 700 13px Helvetica, Arial;
+  line-height: 28px;
+  padding: 0 5px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.navbar ul li {
+  display: inline;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 0.2em 1em;
+  color: #fff;
+  background-color: #000;
+}
+.navbar ul li a:hover {
+  text-decoration: none;
+  font-family: Arial;
+  padding: 0.2em 1em;
+  color: black;
+  background-color: white;
+}
+
+.container {
+  background-color: #6ad9eb;
+  margin: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.sidebar-right {
+  background-color: #f3dc68;
+  margin: 0px 0px 05px 5px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+  float: right;
+  width: 270px;
+  clear: right;
+  list-style-type: none;
+}
+.sidebar-right ul li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.Follow {
+  list-style-type: none;
+  font-family: Arial;
+  padding: 0.2em 1em;
+}
+
+.sidebar-right ul li a:hover {
+  text-decoration: none;
+  font-family: Arial;
+  padding: 0.2em 1em;
+  color: blue;
+}
+
+.image-sidebar {
+  margin: 5px 0px 5px 5px;
+  border-radius: 5px;
+  float: right;
+  width: 310px;
+  clear: right;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.image-sidebar:hover {
+  opacity: 0.7;
+}
+
+.sidebar-contact {
+  background-color: #f3dc68;
+  margin: 5px 0px 05px 5px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+  float: right;
+  width: 270px;
+  clear: right;
+  list-style-type: none;
+}
+
+/* ===== HEADING SECTION ====== */
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+  color: darkblue;
+  font-family: "Century Gothic", "Gill Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+
+  /* ===== THESE 5 FOLLOWING RULES WILL ALWAYS ALIGN VERTICALLY ====== */
+
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h2 {
+  font-size: 120%;
+  color: darkblue;
+}
+
+/* ===== GRID AND FLEX BOX SECTION ====== */
+
+@media screen and (max-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container-blogs {
+    margin: auto;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+/* ===== BLOCKQUOTE SECTION ====== */
+
+.blockquote {
+  font-style: italic;
+  color: brown;
+  justify-content: center;
+  text
+}

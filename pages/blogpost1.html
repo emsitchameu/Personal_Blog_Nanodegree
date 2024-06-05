@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>SDS BLOG</h1>
+      </div>
+
+      <div>
+        <ul>
+          <li class="Subscribe"><a href="webforms.html">Subscribe</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <form action="/search" method="GET">
+          <input type="text" name="query" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blogpost1.html">Front-End Web Development</a></li>
+        <li><a href="blogpost2.html">Digital Marketing</a></li>
+        <li><a href="blogpost3.html">E-Commerce Consultation</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- Sidebar Section -->
+
+      <section id="sidebar">
+        <div class="sidebar-right">
+          <h2>About us</h2>
+          <p>
+            Welcome to SDS, your premier destination for innovative digital
+            solutions tailored to meet the needs of modern businesses. At SDS,
+            we understand the importance of establishing a strong online
+            presence in today's digital age.
+          </p>
+        </div>
+
+        <div class="sidebar-right">
+          <h2>Archives</h2>
+          <ul>
+            <li><a href="">May 2024</a></li>
+            <li><a href="">April 2024</a></li>
+            <li><a href="">March 2024</a></li>
+          </ul>
+        </div>
+
+          <figure class="image-sidebar">
+            <img class="image-sidebar" src="../imgs/sidebar1.jpg" alt="SDS Your Business Partner">
+            <figcaption><em>SDS, Your Favorite Business Partner</em></figcaption>
+          </figure>
+
+        <div class="sidebar-contact">
+          <h2>Contact us</h2>
+          <p>
+            Address: 000 First St NW,<br />
+            Washington DC 20001
+          </p>
+          <p>Phone - 111 - 111 - 1111</p>
+          <p>Email:<a href="">info@example.com </a></p>
+          <ul>
+            <li class="Follow"><a href="facebook.com/example">Facebook</a></li>
+            <li class="Follow"><a href="twitter.com/example">Twitter</a></li>
+            <li class="Follow"><a href="github.com/example">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BlogPost Page Section -->
+
+      <div class="wrapper-blogpost">
+        <!-- Blog Post 1 -->
+        <div class="blog">
+          <div class="blog-header">FRONT-END WEB DEVELOPMENT</div>
+          <div class="blog-title">
+            5 Essential Tips for Creating Stunning Front-End Designs
+          </div>
+          <div class="blog-date">
+            May 01, 2024 by
+            <a href="https://www.linkedin.com/in/emsitchameu"> Simeon</a>
+          </div>
+        </div>
+
+
+        <div>
+          <figure>
+            <img class="image-blog" src="../imgs/blogpost1.jpg"
+            alt="5_Essential_Tips_for_Creating_Stunning_Front-End_Designs"/>
+            <figcaption><em>The 5 Essential Tips for Creating Stunning Front-End Designs</em></figcaption>
+          </figure>
+        </div>
+
+        <div class="blog-body">
+          <p>In the ever-evolving world of web development, front-end design plays
+          a crucial role in captivating users and providing an exceptional user
+          experience. Whether you're a seasoned developer or just starting out,
+          mastering the art of front-end design can take your websites to the
+          next level. In this comprehensive guide, we'll explore five essential
+          tips for creating stunning front-end designs that engage users and
+          leave a lasting impression.</p>
+
+          <article>
+            <h2>Understand Color Theory</h2>
+            <h3>The Importance of Color:</h3>
+            <ul>
+              <li>
+                Choose a cohesive color palette that aligns with your brand's
+                personality and message.
+              </li>
+              <li>
+                Use contrasting colors to create visual hierarchy and draw
+                attention to important elements.
+              </li>
+              <li>
+                Pay attention to color psychology and how different colors evoke
+                specific emotions and associations.
+              </li>
+              <li>
+                Test your color choices across different devices and screen
+                resolutions to ensure accessibility and readability for all
+                users.
+              </li>
+            </ul>
+            <p><div class="blockquote">Example CSS for color scheme:</p>
+
+            <div class="code-block">
+                <p>
+                body { background-color: #f8f8f8; color: #333333; }
+                <br />
+                <br />
+
+                .header { background-color: #007bff; color: #ffffff; }
+                <br />
+                <br />
+                .button { background-color: #28a745; color: #ffffff; }
+              </p>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <h2>Master Typography</h2>
+            <h3>The Power of Typography:</h3>
+            <ul>
+              <li>
+                Select fonts that are legible and easy to read, especially on
+                smaller screens.
+              </li>
+              <li>
+                Use hierarchy to emphasize important information and guide users
+                through your content.
+              </li>
+              <li>
+                Experiment with font pairings to create contrast and visual
+                interest in your designs.
+              </li>
+              <li>
+                Optimize line length and spacing for improved readability across
+                different devices and screen sizes.
+              </li>
+            </ul>
+
+            <p>Example CSS for typography:</p>
+
+            <div class="code-block">
+              body { font-family: 'Arial', sans-serif; font-size: 16px;
+              line-height: 1.6; } h1 { font-size: 24px; font-weight: bold; } p {
+              font-size: 16px; font-weight: normal; }
+            </div>
+          </article>
+
+          <article>
+            <h2>Embrace Responsive Design</h2>
+            <h3>The Need for Responsive Design:</h3>
+            <ul>
+              <li>
+                Use fluid layouts and flexible grids to adapt your designs to
+                different screen sizes and orientations.
+              </li>
+              <li>
+                Optimize images and media for faster load times and better
+                performance on mobile devices.
+              </li>
+              <li>
+                Implement media queries to apply specific styles based on device
+                characteristics, such as screen width and orientation.
+              </li>
+              <li>
+                Test your designs across various devices and screen resolutions
+                to ensure compatibility and responsiveness.
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h2>Prioritize Accessibility</h2>
+            <h3>The Importance of Accessibility:</h3>
+            <ul>
+              <li>
+                Adhere to web content accessibility guidelines (WCAG) to ensure
+                that your designs are accessible to users with disabilities.
+              </li>
+              <li>
+                Provide alternative text for images, videos, and other non-text
+                content to make your designs more accessible to screen readers
+                and other assistive technologies.
+              </li>
+              <li>
+                Implement keyboard navigation and focus management to ensure
+                that users can navigate your site using only the keyboard.
+              </li>
+              <li>
+                Ensure sufficient color contrast for text and interactive
+                elements to improve readability for users with low vision or
+                color vision deficiencies.
+              </li>
+            </ul>
+            <code>
+              <!-- Example HTML for accessibility -->
+              <button type="button" onclick="myFunction()">Click Me</button>
+              <script>
+                function myFunction() {
+                  alert("Hello World!");
+                }
+              </script>
+            </code>
+          </article>
+
+          <article>
+            <h2>Stay Updated with Trends</h2>
+            <h3>The Importance of Staying Updated:</h3>
+            <ul>
+              <li>
+                Follow industry blogs, forums, and social media channels to stay
+                informed about the latest trends and developments in web design.
+              </li>
+              <li>
+                Attend conferences, workshops, and webinars to learn from
+                industry experts and gain insights into emerging technologies
+                and best practices.
+              </li>
+              <li>
+                Experiment with new design trends and techniques in your
+                projects to stay ahead of the curve and differentiate your
+                designs from the competition.
+              </li>
+              <li>
+                Collaborate with other designers and developers to share
+                knowledge, exchange ideas, and learn from each other's
+                experiences.
+              </li>
+            </ul>
+          </article>
+
+      
+            <q>Mastering the art of front-end web development
+            requires attention to detail, creativity, and a commitment to
+            continuous learning.</q>
+            <p>By incorporating these essential tips into your
+            design process, you can create stunning front-end designs that
+            captivate users and drive engagement.
+          </p>
+        </div>
+
+        <hr>
+        <div class="Author">
+             <h3>Author</h3>
+   <p><strong>Name:</strong> <em>Simeon Tchameu</em></p>
+   <p><strong>Title:</strong> <em>Web Developer | Digital Marketer | Web Journalist</em></p>
+   <p><strong>School:</strong> <em>Udacity</em></p>
+   <p><strong>Bio:</strong> <em>Detail-oriented and results-driven front-end web developer, with a strong professional background in desktop support, AWS cloud services, front-end web development, and digital marketing.</em></p>
+   <img src="https://cdn.shopify.com/s/files/1/0400/8588/0984/files/Profie_Photo_Tchameu.png?v=1712957442"
+      alt="Simeon Tchameu">
+   <p><strong>Social Sharing</strong>: <br>
+                    <div class="Follow"><a href="https://www.facebook.com/example">Facebook</a></div>
+            <div class="Follow"><a href="https://www.twitter.com/example">Twitter</a></div>
+            <div class="Follow"><a href="https://www.linkedin.com/in/example">LinkedIn</a></div>
+        </div>
+
+        <!-- SECTION Fake blog post references -->
+<hr>
+<div class="Fake-Blogs">
+  <h2>Related Blog Posts</h2>
+  <ul>
+    <li><a href="#">5 Tips for Successful Email Marketing Campaigns</a></li>
+    <li><a href="#">The Power of Social Media: How to Harness It for Your Business</a></li>
+    <li><a href="#">Content is King: How to Create Compelling Content That Converts</a></li>
+  </ul>
+</div>
+
+<hr>
+
+      </div>
+    </main>
+
+    <!-- Footer Section-->
+
+    <div class="footer">
+      <ul>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+
+      &copy; 2024 sds.com. All Rights Reserved.
+    </div>
+  </body>
+</html>

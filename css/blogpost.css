@@ -1,0 +1,88 @@
+/* ===== BLOGPOST PAGE BOX SECTION ====== */
+.box-blog {
+  border: 2px solid #000;
+  border-radius: 1em;
+  font-size: 100%;
+  margin: 10px;
+  width: 300px;
+}
+
+.image-blog {
+display: flex;
+height: 320px;
+border: 3px solid whitesmoke;
+border-radius: 10px;
+float: left;
+margin: 10px;
+
+
+}
+
+.blog-body {
+margin: auto;
+
+}
+
+.code-block {
+
+border: 3px solid blue;
+padding: 5px;
+margin: 5px;
+border-radius: 10px;
+    display: flex;
+  justify-content: center;
+
+}
+
+.wrapper-blogpost {
+  background-color: #c0bea9;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 110%;
+  overflow: auto;
+
+}
+
+.container-blogs {
+  background-color: #c0bea9;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 110%;
+  overflow: auto;
+}
+
+.blog-header {
+  font-size: 80%;
+  padding: 10px;
+}
+.blog-title {
+  font-size: 120%;
+  font-weight: bold;
+  color:red;
+  padding: 10px;
+}
+.blog-date {
+  font-size: 80%;
+  font-style: italic;
+  font-weight: lighter;
+  color: #ffffff;
+  padding: 5px;
+}
+
+
+.miniature {
+  max-width: 90px;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+
+}
+
+
+.blog-continuelink {
+  color: #1c06e7;
+  padding: 20px;
+}

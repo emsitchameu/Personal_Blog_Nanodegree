@@ -1,14 +1,9 @@
 /* ===== SEARCH BOX SECTION ====== */
 
-
-  .search {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
-
